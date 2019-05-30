@@ -1,1 +1,5 @@
-[{"name": "Image", "src": "img/a.jpg"}]
+[{"name": "Image", "src": "img/1.jpg"},
+  {"name": "Image", "src": "img/4.jpg"},
+  {"name": "Image", "src": "img/9.jpg"},
+  {"name": "Image", "src": "img/10.jpg"}
+]

@@ -9,17 +9,19 @@ try {
     $twig = new Twig_Environment($loader);
 // Подгружаем шаблон
     //Подгружаем шапку сайта
-    $template = $twig->loadTemplate('header.tpl');
+    $template = $twig->loadTemplate('header.tmpl');
     echo $template->render([]);
     $file = file_get_contents('./img.json', true);
     $json = json_decode($file);
-    print_r($json);
-    print_r($json['name']);
-    // Подгружаем контент
-    //$template = $twig->loadTemplate('content.tmpl');
 
+    print_r($json);
+
+    //print_r($json[0]->name);
+    // Подгружаем контент
+    $template = $twig->loadTemplate('content.tmpl');
+    echo $template->render(['jsons' => $json]);
     //Подгружаем подвал сайта
-    $template = $twig->loadTemplate('footer.tpl');
+    $template = $twig->loadTemplate('footer.tmpl');
 // Передаем в шаблон переменные и значения
 // Выводим сформированное содержание
     $date = date('Y');
