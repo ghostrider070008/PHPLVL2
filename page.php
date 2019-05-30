@@ -13,10 +13,13 @@ try {
     echo $template->render([]);
     $file = file_get_contents('./img.json', true);
     $json = json_decode($file);
-        // Подгружаем контент
+    $ident = (int)$_GET['id'];
     print_r($json);
-    $template = $twig->loadTemplate('content.tpl');
-    echo $template->render(['jsons' => $json]);
+
+    print_r($json[$ident]);
+    // Подгружаем контент
+    $template = $twig->loadTemplate('contentpage.tpl');
+    echo $template->render(['jsons' => $json[$ident]]);
     //Подгружаем подвал сайта
     $template = $twig->loadTemplate('footer.tpl');
 // Передаем в шаблон переменные и значения
