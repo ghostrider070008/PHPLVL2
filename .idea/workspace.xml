@@ -1,10 +1,363 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37280e30-12d3-4419-ab9c-df4bf6b35d3e" name="Default Changelist" comment="">
+    <list default="true" id="d491acad-875b-4e4b-977d-ea91b728d89e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson4/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.json" beforeDir="false" afterPath="$PROJECT_DIR$/img.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/controller/Gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/images/176698653.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/images/image2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/images/image5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Compiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/CompilerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Environment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Error/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Error/Runtime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Error/Syntax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/ExistsLoaderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/ExpressionParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Escaper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Optimizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/Staging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Extension/StringLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/ExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Filter/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Filter/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Filter/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/FilterCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/FilterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Function/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Function/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Function/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/FunctionCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/FunctionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Lexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/LexerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Loader/Array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Loader/Chain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Loader/Filesystem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Loader/String.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/LoaderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Markup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/AutoEscape.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/BlockReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Embed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/AssignName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/And.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/BitwiseOr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/BitwiseXor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Concat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Div.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Equal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/FloorDiv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Greater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/GreaterEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/In.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Less.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/LessEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Mod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Mul.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/NotEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/NotIn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Or.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Power.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Range.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Binary/Sub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/BlockReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Call.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Constant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/ExtensionReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Filter/Default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/GetAttr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/MethodCall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Name.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Parent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/TempName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Constant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Defined.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Divisibleby.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Even.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Null.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Odd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Test/Sameas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Unary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Unary/Neg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Unary/Not.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Expression/Unary/Pos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Flush.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/For.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/ForLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/If.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Macro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Print.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/SandboxedModule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/SandboxedPrint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/SetTemp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Spaceless.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Node/Text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeOutputInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeTraverser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeVisitor/Escaper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeVisitor/Optimizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeVisitor/SafeAnalysis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeVisitor/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/NodeVisitorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/ParserInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Sandbox/SecurityError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Sandbox/SecurityPolicy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Sandbox/SecurityPolicyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/SimpleFilter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/SimpleFunction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/SimpleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TemplateInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test/IntegrationTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Test/NodeTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TestCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/Token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/AutoEscape.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Embed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Extends.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Flush.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/For.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/From.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/If.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Macro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Spaceless.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParser/Use.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParserBroker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParserBrokerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenParserInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/lib/Twig/TokenStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/model/Gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/view/all.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/view/base.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/view/one.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Compiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/CompilerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Environment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Error/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Error/Runtime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Error/Syntax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/ExistsLoaderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/ExpressionParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Escaper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Optimizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/Staging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Extension/StringLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/ExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Filter/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Filter/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Filter/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/FilterCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/FilterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Function/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Function/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Function/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/FunctionCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/FunctionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Lexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/LexerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Loader/Array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Loader/Chain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Loader/Filesystem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Loader/String.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/LoaderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Markup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/AutoEscape.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/BlockReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Embed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Array.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/AssignName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/And.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseAnd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseOr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseXor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Concat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Div.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Equal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/FloorDiv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Greater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/GreaterEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/In.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Less.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/LessEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Mod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Mul.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/NotEqual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/NotIn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Or.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Power.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Range.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Sub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/BlockReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Call.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Conditional.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Constant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/ExtensionReference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Filter/Default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/GetAttr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/MethodCall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Name.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Parent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/TempName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Constant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Defined.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Divisibleby.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Even.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Null.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Odd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Test/Sameas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Unary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Neg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Not.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Pos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Flush.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/For.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/ForLoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/If.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Macro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Module.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Print.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/SandboxedModule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/SandboxedPrint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/SetTemp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Spaceless.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Node/Text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeOutputInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeTraverser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeVisitor/Escaper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeVisitor/Optimizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeVisitor/SafeAnalysis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeVisitor/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/NodeVisitorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/ParserInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Sandbox/SecurityError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Sandbox/SecurityPolicy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Sandbox/SecurityPolicyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/SimpleFilter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/SimpleFunction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/SimpleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TemplateInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test/Function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test/IntegrationTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test/Method.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Test/NodeTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TestCallableInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/Token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/AutoEscape.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Do.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Embed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Extends.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Flush.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/For.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/From.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/If.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Include.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Macro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Sandbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Set.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Spaceless.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParser/Use.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParserBroker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParserBrokerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenParserInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twig/TokenStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content1.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contentpage.tpl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.tpl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.tpl" beforeDir="false" />
     </list>
@@ -16,69 +369,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/content.tpl">
+        <entry file="file://$PROJECT_DIR$/lesson4/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="540">
+              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/footer.tpl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.php">
+        <entry file="file://$PROJECT_DIR$/lesson4/templates/content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="54">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/contentpage.tpl">
+        <entry file="file://$PROJECT_DIR$/lesson4/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,16 +404,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/footer.tpl" />
-        <option value="$PROJECT_DIR$/templates/header.tpl" />
-        <option value="$PROJECT_DIR$/css/img.json" />
-        <option value="$PROJECT_DIR$/templates/content.tmpl" />
-        <option value="$PROJECT_DIR$/templates/content.tpl" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/img.json" />
-        <option value="$PROJECT_DIR$/page.php" />
-        <option value="$PROJECT_DIR$/templates/contentpage.tpl" />
+        <option value="$PROJECT_DIR$/lesson4/templates/content.tpl" />
+        <option value="$PROJECT_DIR$/lesson4/config.php" />
+        <option value="$PROJECT_DIR$/lesson4/index.php" />
       </list>
     </option>
   </component>
@@ -110,6 +421,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,33 +432,24 @@
             <path>
               <item name="PHPLVL2" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPLVL2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHPLVL2" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPLVL2" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson4" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\PHPLVL2" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,24 +468,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37280e30-12d3-4419-ab9c-df4bf6b35d3e" name="Default Changelist" comment="" />
-      <created>1559157423005</created>
+      <changelist id="d491acad-875b-4e4b-977d-ea91b728d89e" name="Default Changelist" comment="" />
+      <created>1559389794770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559157423005</updated>
-      <workItem from="1559157424472" duration="6817000" />
-      <workItem from="1559211424439" duration="9774000" />
+      <updated>1559389794770</updated>
+      <workItem from="1559389802370" duration="652000" />
+      <workItem from="1559390483857" duration="4895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16591000" />
+    <option name="totallyTimeSpent" value="5547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -207,59 +509,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/img.php">
+    <entry file="file://$PROJECT_DIR$/lesson4/templates/content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.tpl" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content.tmpl">
+    <entry file="file://$PROJECT_DIR$/lesson4/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img.json">
+    <entry file="file://$PROJECT_DIR$/lesson4/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contentpage.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="540">
+          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
         </state>
       </provider>
     </entry>
